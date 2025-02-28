@@ -4,6 +4,10 @@ body {
     color: #FFFFFF;
     font-size: 30px;
     margin: 80px 70px 80px 70px;
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
 }
 
 .random-password {
@@ -53,7 +57,7 @@ button {
     padding: 10px 60px 7px 60px;
     font-size: 25px;
     border-radius: 5px;
-    height: 30px;
+    height: 35px;
     color: #55F991;
     width: auto; /* Adjusts width to fit the content */
     min-width: 100px; /* Ensures a minimum width */
