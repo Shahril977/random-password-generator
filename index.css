@@ -1,0 +1,64 @@
+body {
+    margin: 0px;
+    background-color: #1F2937;
+    color: #FFFFFF;
+    font-size: 30px;
+    margin: 80px 70px 80px 70px;
+}
+
+.random-password {
+    color: #4ADF86;
+    display: block;
+}
+
+h1 {
+    text-align: left;
+}
+
+p {
+    color: #D5D4D8;
+    white-space: nowrap;
+    text-align: left;
+}
+
+button {
+    color: #FFFFFF;
+    background-color: #10B981;
+    border: 0px solid;
+    border-radius: 5px;
+    margin-top: 40px;
+    margin-bottom: 25px;
+    font-size: 25px;
+    padding: 15px 20px; 
+}
+
+.divi {
+    flex: 1;
+    height: 2.5px;
+    background-color: #273549;
+    margin-top: 30px;
+    
+    
+}
+
+.password-box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.password-one, .password-two {
+    background-color: #273549;
+    padding: 10px 60px 7px 60px;
+    font-size: 25px;
+    border-radius: 5px;
+    height: 30px;
+    color: #55F991;
+    width: auto; /* Adjusts width to fit the content */
+    min-width: 100px; /* Ensures a minimum width */
+}
+
+.hover-button:hover {
+    background: url(images/matrix.gif);
+}
